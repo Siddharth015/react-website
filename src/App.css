@@ -1,0 +1,63 @@
+body {
+  
+  margin: 15px;
+  font-family: poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #10101E;
+  background: radial-gradient( #10101E 100%, #2536EB 0%);
+    
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  position: relative;
+  background-color: #10101E;
+  color: #fff;
+}
+
+/* Add the following styles to src/App.css */
+
+
+
+nav h1 {
+  margin: 0;
+  color: #DBFF00;
+}
+
+.hero {
+  padding: 10rem;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.75rem;
+  background-color: #61dafb;
+  color: #860b0b;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4fa3d1;
+}
